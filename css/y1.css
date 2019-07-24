@@ -1,0 +1,66 @@
+html, body {
+	font-family: sans-serif
+
+
+}
+
+header{
+		
+		padding: 20px;
+		
+	}
+
+h1{
+	font-size: 40px;
+}
+
+h1,h2{padding: 20px
+}
+
+header img{
+	
+	width: 200px;
+	float: right;
+	display: inline-block;
+}
+
+.liste{
+	float: right;
+	font-style: italic;
+	color: white;
+	align-content: middle
+	
+
+}
+
+.harita{
+	display: inline-block;
+	float: top;
+}
+/*</header>
+		<div class="content">
+			<img src="img/1-genel.jpg">
+			<p class="caption">Yenişehir mahalle sınırları</p>
+
+		
+			<ul>
+				<li><a href="">Ulaşım</a></li>
+				<li><a href="">Çevre & Temizlik</a></li>
+				<li><a href="">Açık Alan Düzenlemeleri</a></li>
+				<li><a href="">Ekonomi</a></li>
+				<li><a href="">Sosyal Hizmetler</a></li>
+				<li><a href="">Spor</a></li>
+				<li><a href="">Sosyal Tesisler</a></li>
+				<li><a href="">Güvenlik</a></li>
+				<li><a href="">Ekoloji</a></li>
+				<li><a href="">Kurumsal İşleyiş</a></li>
+				<li><a href="">Su & Kanalizasyon</a></li>
+				<li><a href="">Eğitim</a></li>
+				<li><a href="">Bakım & Onarım</a></li>
+				<li><a href="">Sağlığa erişim</a></li>
+				<li><a href="">Enerji & Telekomünikasyon</a></li>
+				<li><a href="">İmar & Tapu</a></li>
+				<li><a href="">Sosyal Etkinlikler</a></li>
+			</ul>
+		
+	</div>*/
