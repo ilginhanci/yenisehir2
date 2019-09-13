@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Mahalle Talep Oranları</title>
 	<link rel="stylesheet" type="text/css" href="css/y1.css">
 </head>
+
 <body>
-	<div class="wrapper">	
+	<div class="wrapper">
 		<header>
-			
-			<p><img src="img/background.jpg" alt="logo"/></p>
+			<p><img src="img/background.jpg" alt="logo" /></p>
 			<h1>Mersin Yenişehir Belediyesi</h1>
 			<h2>Mahalle Talep Oranları Haritası</h2>
-
-	
 		</header>
-		<div class="content" >
-			
-
-		<div class="liste">
-			<ul>
-				<li><a href="index2.html#map">Ulaşım</a></li>
-				<li><a href="index3.html#map">Çevre & Temizlik</a></li>
-				<li><a href="index4.html#map">Açık Alan Düzenlemeleri</a></li>
-				<li><a href="index5.html#map">Ekonomi</a></li>
-				<li><a href="index6.html#map">Sosyal Hizmetler</a></li>
-				<li><a href="index7.html#map">Spor</a></li>
-				<li><a href="index8.html#map">Sosyal Tesisler</a></li>
-				<li><a href="index9.html#map">Güvenlik</a></li>
-				<li><a href="index91.html#map">Ekoloji</a></li>
-				<li><a href="index92.html#map">Kurumsal İşleyiş</a></li>
-				<li><a href="index93.html#map">Su & Kanalizasyon</a></li>
-				<li><a href="index94.html#map">Eğitim</a></li>
-				<li><a href="index95.html#map">Bakım & Onarım</a></li>
-				<li><a href="index96.html#map">Sağlığa erişim</a></li>
-				<li><a href="index97.html#map">Enerji & Telekomünikasyon</a></li>
-				<li><a href="index98.html#map">İmar & Tapu</a></li>
-				<li><a href="index99.html#map">Sosyal Etkinlikler</a></li>
-			</ul>
-		</div>
-
-		<div class="harita" id="map">
-			<img src="img/1-genel.jpg" alt="genel harita">
-			<p class="caption">Yenişehir mahalle sınırları</p>
+		<div class="content">
+			<div class="liste">
+				<ul>
+					<li><a onclick="change_photo('1-genel.jpg')" href="#">Genel</a></li>
+					<li><a onclick="change_photo('2-ulasim.jpg')" href="#">Ulaşım</a></li>
+					<li><a onclick="change_photo('3-temizlik.jpg')" href="#">Çevre & Temizlik</a></li>
+					<li><a onclick="change_photo('4-acikalan.jpg')" href="#">Açık Alan Düzenlemeleri</a></li>
+					<li><a onclick="change_photo('5-ekonomi.jpg')" href="#">Ekonomi</a></li>
+					<li><a onclick="change_photo('6-sosyal.jpg')" href="#">Sosyal Hizmetler</a></li>
+					<li><a onclick="change_photo('7-spor.jpg')" href="#">Spor</a></li>
+					<li><a onclick="change_photo('8-sosyaltesis.jpg')" href="#">Sosyal Tesisler</a></li>
+					<li><a onclick="change_photo('9-guvenlik.jpg')" href="#">Güvenlik</a></li>
+					<li><a onclick="change_photo('91-ekoloji.jpg')" href="#">Ekoloji</a></li>
+					<li><a onclick="change_photo('92-kurumsal.jpg')" href="#">Kurumsal İşleyiş</a></li>
+					<li><a onclick="change_photo('93-kanalizasyon.jpg')" href="#">Su & Kanalizasyon</a></li>
+					<li><a onclick="change_photo('94-egitim.jpg')" href="#">Eğitim</a></li>
+					<li><a onclick="change_photo('95-bakimonarim.jpg')" href="#">Bakım & Onarım</a></li>
+					<li><a onclick="change_photo('96-saglik.jpg')" href="#">Sağlığa erişim</a></li>
+					<li><a onclick="change_photo('97-enerji.jpg')" href="#">Enerji & Telekomünikasyon</a></li>
+					<li><a onclick="change_photo('98-imar.jpg')" href="#">İmar & Tapu</a></li>
+					<li><a onclick="change_photo('99-sosyaletkinlik.jpg')" href="#">Sosyal Etkinlikler</a></li>
+				</ul>
+				<script type="text/javascript">
+					function change_photo(fileName) {
+						document.getElementById('photo-view').src = 'img/' + fileName;
+					}
+				</script>
 			</div>
-	</div>
+			<div class="harita" id="map">
+				<img id="photo-view" src="img/2-ulasim.jpg" alt="genel harita">
+				<p class="caption">Yenişehir mahalle sınırları</p>
+			</div>
+		</div>
 </body>
+
 </html>
